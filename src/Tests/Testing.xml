@@ -1,0 +1,16 @@
+<suite name="Suite1" parallel="methods" thread-count="2">
+    <test name="Contacts">
+        <parameter name="UserName" value="sharifzodah@gmail.com"></parameter>
+        <parameter name="Password" value="Qwertyu2020@@##"></parameter>
+        <parameter name="Email" value="abduhamid.s1980@gmail.com"></parameter>
+        <parameter name="FirstName" value="Abduhamid"></parameter>
+        <parameter name="LastName" value="Sharif-zoda"></parameter>
+        <parameter name="Domain" value="tutorialspoint.com"></parameter>
+        <parameter name="Name" value="Abduhamidjon"></parameter>
+        <classes>
+            <class name="Tests.Test1"></class>
+            <class name="Tests.Test2"></class>
+        </classes>
+    </test>
+
+</suite>
